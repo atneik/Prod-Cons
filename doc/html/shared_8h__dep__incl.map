@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$consumer_8c.html" title="the takes in character by character produced by producer.c after specified sleep time." alt="" coords="5,80,91,107"/>
+<area shape="rect" id="node5" href="$producer_8c.html" title="the producer takes in string from commandline and produces character by character after specified sle..." alt="" coords="115,80,193,107"/>
+<area shape="rect" id="node7" href="$shared_8c.html" title="impliments shared functions for producer and consumer for creatingshared memory buffer, creating semaphore set, clearing the buffer, etc." alt="" coords="218,80,288,107"/>
+</map>

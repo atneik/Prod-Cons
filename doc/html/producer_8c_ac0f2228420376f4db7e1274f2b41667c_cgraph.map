@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$shared_8c.html#a4bbb6d34e652fe6f5473a39844d51292" title="create_shared_mem_buffer" alt="" coords="105,5,279,32"/>
+<area shape="rect" id="node5" href="$shared_8c.html#a56c050a0038694456450f32ed18b9de6" title="create_semaphore_set" alt="" coords="117,56,267,83"/>
+<area shape="rect" id="node7" href="$shared_8c.html#ae31990842a98b27a46e9a601dc0adb33" title="clear_buffer" alt="" coords="149,107,235,133"/>
+<area shape="rect" id="node9" href="$producer_8c.html#aa12bcda16f9e758e5dada5f82bbe8468" title="insert_item" alt="" coords="152,157,232,184"/>
+<area shape="rect" id="node11" href="$shared_8c.html#af271b30a7329cb8e175e69f430efa790" title="get_buffer_size" alt="" coords="328,157,435,184"/>
+</map>
