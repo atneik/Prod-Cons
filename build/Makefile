@@ -8,7 +8,7 @@ default_target: all
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -39,10 +39,10 @@ RM = /opt/local/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/atneik/dev/jiit/sp/ProdCons/newNew
+CMAKE_SOURCE_DIR = /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/atneik/dev/jiit/sp/ProdCons/newNew/build
+CMAKE_BINARY_DIR = /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,9 +69,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/atneik/dev/jiit/sp/ProdCons/newNew/build/CMakeFiles /Users/atneik/dev/jiit/sp/ProdCons/newNew/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build/CMakeFiles /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/atneik/dev/jiit/sp/ProdCons/newNew/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

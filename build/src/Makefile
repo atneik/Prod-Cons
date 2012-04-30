@@ -8,7 +8,7 @@ default_target: all
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -39,10 +39,10 @@ RM = /opt/local/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/atneik/dev/jiit/sp/ProdCons/newNew
+CMAKE_SOURCE_DIR = /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/atneik/dev/jiit/sp/ProdCons/newNew/build
+CMAKE_BINARY_DIR = /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,14 +69,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/atneik/dev/jiit/sp/ProdCons/newNew/build/CMakeFiles /Users/atneik/dev/jiit/sp/ProdCons/newNew/build/src/CMakeFiles/progress.marks
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/atneik/dev/jiit/sp/ProdCons/newNew/build/CMakeFiles 0
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build/CMakeFiles /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build/src/CMakeFiles/progress.marks
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -85,22 +85,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/Consumer.dir/rule:
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Consumer.dir/rule
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Consumer.dir/rule
 .PHONY : src/CMakeFiles/Consumer.dir/rule
 
 # Convenience name for target.
@@ -109,12 +109,12 @@ Consumer: src/CMakeFiles/Consumer.dir/rule
 
 # fast build rule for target.
 Consumer/fast:
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(MAKE) -f src/CMakeFiles/Consumer.dir/build.make src/CMakeFiles/Consumer.dir/build
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(MAKE) -f src/CMakeFiles/Consumer.dir/build.make src/CMakeFiles/Consumer.dir/build
 .PHONY : Consumer/fast
 
 # Convenience name for target.
 src/CMakeFiles/Producer.dir/rule:
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Producer.dir/rule
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Producer.dir/rule
 .PHONY : src/CMakeFiles/Producer.dir/rule
 
 # Convenience name for target.
@@ -123,12 +123,12 @@ Producer: src/CMakeFiles/Producer.dir/rule
 
 # fast build rule for target.
 Producer/fast:
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(MAKE) -f src/CMakeFiles/Producer.dir/build.make src/CMakeFiles/Producer.dir/build
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(MAKE) -f src/CMakeFiles/Producer.dir/build.make src/CMakeFiles/Producer.dir/build
 .PHONY : Producer/fast
 
 # Convenience name for target.
 src/CMakeFiles/Shared.dir/rule:
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Shared.dir/rule
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Shared.dir/rule
 .PHONY : src/CMakeFiles/Shared.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ Shared: src/CMakeFiles/Shared.dir/rule
 
 # fast build rule for target.
 Shared/fast:
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(MAKE) -f src/CMakeFiles/Shared.dir/build.make src/CMakeFiles/Shared.dir/build
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(MAKE) -f src/CMakeFiles/Shared.dir/build.make src/CMakeFiles/Shared.dir/build
 .PHONY : Shared/fast
 
 consumer.o: consumer.c.o
@@ -145,7 +145,7 @@ consumer.o: consumer.c.o
 
 # target to build an object file
 consumer.c.o:
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(MAKE) -f src/CMakeFiles/Consumer.dir/build.make src/CMakeFiles/Consumer.dir/consumer.c.o
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(MAKE) -f src/CMakeFiles/Consumer.dir/build.make src/CMakeFiles/Consumer.dir/consumer.c.o
 .PHONY : consumer.c.o
 
 consumer.i: consumer.c.i
@@ -153,7 +153,7 @@ consumer.i: consumer.c.i
 
 # target to preprocess a source file
 consumer.c.i:
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(MAKE) -f src/CMakeFiles/Consumer.dir/build.make src/CMakeFiles/Consumer.dir/consumer.c.i
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(MAKE) -f src/CMakeFiles/Consumer.dir/build.make src/CMakeFiles/Consumer.dir/consumer.c.i
 .PHONY : consumer.c.i
 
 consumer.s: consumer.c.s
@@ -161,7 +161,7 @@ consumer.s: consumer.c.s
 
 # target to generate assembly for a file
 consumer.c.s:
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(MAKE) -f src/CMakeFiles/Consumer.dir/build.make src/CMakeFiles/Consumer.dir/consumer.c.s
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(MAKE) -f src/CMakeFiles/Consumer.dir/build.make src/CMakeFiles/Consumer.dir/consumer.c.s
 .PHONY : consumer.c.s
 
 producer.o: producer.c.o
@@ -169,7 +169,7 @@ producer.o: producer.c.o
 
 # target to build an object file
 producer.c.o:
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(MAKE) -f src/CMakeFiles/Producer.dir/build.make src/CMakeFiles/Producer.dir/producer.c.o
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(MAKE) -f src/CMakeFiles/Producer.dir/build.make src/CMakeFiles/Producer.dir/producer.c.o
 .PHONY : producer.c.o
 
 producer.i: producer.c.i
@@ -177,7 +177,7 @@ producer.i: producer.c.i
 
 # target to preprocess a source file
 producer.c.i:
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(MAKE) -f src/CMakeFiles/Producer.dir/build.make src/CMakeFiles/Producer.dir/producer.c.i
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(MAKE) -f src/CMakeFiles/Producer.dir/build.make src/CMakeFiles/Producer.dir/producer.c.i
 .PHONY : producer.c.i
 
 producer.s: producer.c.s
@@ -185,7 +185,7 @@ producer.s: producer.c.s
 
 # target to generate assembly for a file
 producer.c.s:
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(MAKE) -f src/CMakeFiles/Producer.dir/build.make src/CMakeFiles/Producer.dir/producer.c.s
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(MAKE) -f src/CMakeFiles/Producer.dir/build.make src/CMakeFiles/Producer.dir/producer.c.s
 .PHONY : producer.c.s
 
 shared.o: shared.c.o
@@ -193,7 +193,7 @@ shared.o: shared.c.o
 
 # target to build an object file
 shared.c.o:
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(MAKE) -f src/CMakeFiles/Shared.dir/build.make src/CMakeFiles/Shared.dir/shared.c.o
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(MAKE) -f src/CMakeFiles/Shared.dir/build.make src/CMakeFiles/Shared.dir/shared.c.o
 .PHONY : shared.c.o
 
 shared.i: shared.c.i
@@ -201,7 +201,7 @@ shared.i: shared.c.i
 
 # target to preprocess a source file
 shared.c.i:
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(MAKE) -f src/CMakeFiles/Shared.dir/build.make src/CMakeFiles/Shared.dir/shared.c.i
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(MAKE) -f src/CMakeFiles/Shared.dir/build.make src/CMakeFiles/Shared.dir/shared.c.i
 .PHONY : shared.c.i
 
 shared.s: shared.c.s
@@ -209,7 +209,7 @@ shared.s: shared.c.s
 
 # target to generate assembly for a file
 shared.c.s:
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(MAKE) -f src/CMakeFiles/Shared.dir/build.make src/CMakeFiles/Shared.dir/shared.c.s
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(MAKE) -f src/CMakeFiles/Shared.dir/build.make src/CMakeFiles/Shared.dir/shared.c.s
 .PHONY : shared.c.s
 
 # Help Target
@@ -243,6 +243,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/atneik/dev/jiit/sp/ProdCons/newNew/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,1 +1,1 @@
-/usr/bin/gcc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/Consumer.dir/consumer.c.o  -o Consumer  -L/Users/atneik/dev/jiit/sp/ProdCons/newNew/build/src libShared.a 
+/usr/bin/gcc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/Consumer.dir/consumer.c.o  -o Consumer  -L/Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/src libShared.a 

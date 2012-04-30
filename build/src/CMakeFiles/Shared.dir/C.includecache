@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/atneik/dev/jiit/sp/ProdCons/newNew/src/shared.c
+/Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/src/shared.c
 shared.h
-/Users/atneik/dev/jiit/sp/ProdCons/newNew/src/shared.h
+/Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/src/shared.h
 
-/Users/atneik/dev/jiit/sp/ProdCons/newNew/src/shared.h
+/Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/src/shared.h
 sys/types.h
 -
 sys/ipc.h

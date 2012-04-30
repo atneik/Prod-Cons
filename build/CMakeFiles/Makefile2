@@ -16,7 +16,7 @@ preinstall:
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -47,10 +47,10 @@ RM = /opt/local/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/atneik/dev/jiit/sp/ProdCons/newNew
+CMAKE_SOURCE_DIR = /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/atneik/dev/jiit/sp/ProdCons/newNew/build
+CMAKE_BINARY_DIR = /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build
 
 #=============================================================================
 # Directory level rules for directory src
@@ -78,7 +78,7 @@ src/preinstall:
 src/CMakeFiles/Consumer.dir/all: src/CMakeFiles/Shared.dir/all
 	$(MAKE) -f src/CMakeFiles/Consumer.dir/build.make src/CMakeFiles/Consumer.dir/depend
 	$(MAKE) -f src/CMakeFiles/Consumer.dir/build.make src/CMakeFiles/Consumer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/atneik/dev/jiit/sp/ProdCons/newNew/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build/CMakeFiles  1
 	@echo "Built target Consumer"
 .PHONY : src/CMakeFiles/Consumer.dir/all
 
@@ -88,9 +88,9 @@ all: src/CMakeFiles/Consumer.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Consumer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/atneik/dev/jiit/sp/ProdCons/newNew/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Consumer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/atneik/dev/jiit/sp/ProdCons/newNew/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Consumer.dir/rule
 
 # Convenience name for target.
@@ -113,7 +113,7 @@ clean: src/CMakeFiles/Consumer.dir/clean
 src/CMakeFiles/Producer.dir/all: src/CMakeFiles/Shared.dir/all
 	$(MAKE) -f src/CMakeFiles/Producer.dir/build.make src/CMakeFiles/Producer.dir/depend
 	$(MAKE) -f src/CMakeFiles/Producer.dir/build.make src/CMakeFiles/Producer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/atneik/dev/jiit/sp/ProdCons/newNew/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build/CMakeFiles  2
 	@echo "Built target Producer"
 .PHONY : src/CMakeFiles/Producer.dir/all
 
@@ -123,9 +123,9 @@ all: src/CMakeFiles/Producer.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Producer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/atneik/dev/jiit/sp/ProdCons/newNew/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Producer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/atneik/dev/jiit/sp/ProdCons/newNew/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Producer.dir/rule
 
 # Convenience name for target.
@@ -148,7 +148,7 @@ clean: src/CMakeFiles/Producer.dir/clean
 src/CMakeFiles/Shared.dir/all:
 	$(MAKE) -f src/CMakeFiles/Shared.dir/build.make src/CMakeFiles/Shared.dir/depend
 	$(MAKE) -f src/CMakeFiles/Shared.dir/build.make src/CMakeFiles/Shared.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/atneik/dev/jiit/sp/ProdCons/newNew/build/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build/CMakeFiles  3
 	@echo "Built target Shared"
 .PHONY : src/CMakeFiles/Shared.dir/all
 
@@ -158,9 +158,9 @@ all: src/CMakeFiles/Shared.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Shared.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/atneik/dev/jiit/sp/ProdCons/newNew/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Shared.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/atneik/dev/jiit/sp/ProdCons/newNew/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Shared.dir/rule
 
 # Convenience name for target.

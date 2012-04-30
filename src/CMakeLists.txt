@@ -1,5 +1,5 @@
-include_directories(${ProdCons_SOURCE_DIR}/src)
-link_directories(${ProdCons_BINARY_DIR}/src)
+#include_directories(${ProdCons_SOURCE_DIR}/src)
+#link_directories(${ProdCons_BINARY_DIR}/src)
 
 ADD_LIBRARY(Shared shared)
 ADD_EXECUTABLE(Consumer consumer)

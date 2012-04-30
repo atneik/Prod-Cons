@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/Users/atneik/dev/jiit/sp/ProdCons/newNew/src/shared.c" "/Users/atneik/dev/jiit/sp/ProdCons/newNew/build/src/CMakeFiles/Shared.dir/shared.c.o"
+  "/Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/src/shared.c" "/Users/atneik/dev/jiit/sp/ProdCons/Prod-Cons/build/src/CMakeFiles/Shared.dir/shared.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 
